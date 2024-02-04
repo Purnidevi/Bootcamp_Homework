@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 04 </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .Container{
+           
+            width: 100%;
+            height:100% ;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10%;
+
+        }
+        form{
+            width:90%;
+            max-width: 600px;;
+        }
+        .group{
+            margin-bottom: 20px;
+        }
+        h1{
+            font-size:25px;
+            font-weight: 100;
+            padding: 10px;
+            
+        }
+        h3{ 
+            font-weight: 200;
+            font-size:18px;
+            padding: 10px;
+            
+        }
+        input,textarea{
+            width: 100%;
+            padding: 10px;
+            outline: 0;
+            border-radius: 5px ;           
+            color: rgb(1, 2, 2);
+            font-size: 15px;
+            font-weight: 100;
+           
+        }
+        label{
+           
+            padding: 10px;
+        }
+       
+        .row1{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .row1 .group {
+            flex-direction: column-reverse;
+            width: 50%;
+        }
+
+            
+        .group1{
+            width: 60%;
+            background-position-y: bottom;                      
+            box-sizing: border-box;
+            align-items: center;
+            
+        }
+        .l1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            color: rgb(64, 63, 63);
+        }
+        .text{
+            color: rgba(0, 0, 0, 0.292);
+        }
+      #pad{
+        width: 45%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        color: rgb(52, 52, 52);
+      }
+      #submit{
+        width: 20%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        color: rgb(52, 52, 52);
+
+      }
+      .sign1{
+        border-color: rgba(7, 7, 7, 0.307);
+      }
+      .text1{
+        font-weight: 100;
+        font-size: 10px;
+        background-color: rgba(5, 4, 4, 0.12);
+        border-color: rgb(47, 171, 233);
+        border-width: 2px;
+        box-shadow: 0 0px 8px 0 rgba(32, 160, 245, 0.45), 0 6px 20px 0 rgba(64, 63, 63, 0.19);
+      }
+       
+    </style>
+</head>
+<body>
+     <div class="Container">
+        <form >
+           
+                <h1>Terms and Conditions</h1><br>
+                <h3 >Please read our Terms and Conditions and sign below.</h3><br>
+            <div class="row1">
+        
+                <div class="group">
+                    <label class="l1" for="Firstname">First name <sup style="color: red;">*</sup></label><br>
+                    <input type="textbox" name="" class="text">
+                </div>
+                <div class="group">
+                    <label class="l1" for="Lastname">Last name <sup style="color: red;">*</sup></label><br>
+                    <input type="textbox" name="" class="text">
+                </div>
+            </div>
+            <div class="group">
+                <label class="l1" for="Email">Email <sup style="color: red;">*</sup></label><br>
+                <input type="textbox" name="" class="text">                
+            </div>
+            <div class="group">
+                <label class="l1" for="Termsandcondition">Terms and Conditions</label>
+            </div>                
+                <textarea class="text1" name="text" id="" cols="80" rows="15">
+Last updated:(add date)
+
+Please read these Terms and Conditions (“Terms”,”Terms and Conditions”) carefully before using the http://www.mywebsite(change this )website and the My Mobile App(change this)mobile application(the “Service”) operated by My Company (change this)(“us”,”we”,or “our”).
+
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+
+By accessing or using the Service you agree to be bound by these terms.If you disagree with any part of the terms then you may not access the Service.
+
+Purchases
+If you wish to purchase any predictor service made available through the Service(“Purchase”),
+                </textarea>
+            <br>
+            <div class="group1">
+                <label class="l1" for="Please sign here">Please sign here <sup style="color: red;">*</sup></label><br>
+                <textarea class="sign1" name="signature pad" id="signaturepad" cols="30" rows="10"></textarea><br>
+                <input type="button" name="clear signature pad" value="clear signature pad" id="pad"><br><br>
+                <input type="button" name="Submit" value="Submit" id="submit">
+            </div>
+        </form>
+       
+    </div> 
+</body>
+</html>
