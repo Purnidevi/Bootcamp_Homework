@@ -5,32 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Travel Blog</title>
     <style>
-      * {
-        
-
-      }
-
-
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family:'roboto', sans-serif;
+        padding: 10px;
+        }
+        .container {
+       margin: 10%;
+       max-width: 80%;
+       padding: 3px;
+       }
+       h1{
+        text-align: center;
+        justify-content: center;
+        background-color: bisque;
+       }
+    
     </style>
 </head>
 <body>
-    <div class="box1">
-        <h1>A Travel Blog</h1>
-    </div>
-
-    <div class="box2">
-        <p>multiple paras</p>
-    </div>
-    <div class="divide3">
-        <div class="box3">list of places to visit along with images img src ol ul</div>
-        <div class="box4">things to do as list ol ul</div>
-        <div class="box5">Itinerary as table tr td th</div>
-    </div>
-
+    <div class="container">
+        <div class="box1">
+            <h1>Florida Travel Blog</h1>            
+        </div>
+        <!-- multiple paras -->
+        <br><br>
+    
+        <div class="box2">
+            <p>Florida Travel Blog’s destinations for young adults in Florida to vacation will give you options for fun adventures, entertainment, and some history and ecological value thrown in.The best time to visit Florida is from November to April when the weather is mild, dry, and perfect for outdoor activities. There are fewer crowds, lots of events, and a reduced risk of hurricanes.</p>
+        </div>
+        <!-- list of places to visit along with images -->
     
     
+        <div class="box3">
+            <div class="li1"> 
+            <img src="https://floridatravel.blog/wp-content/uploads/2022/10/Key-West-Collage.jpg" alt="">
+            <img src="https://floridatravel.blog/wp-content/uploads/2022/06/destin-Harborwalk-300x274.jpg" alt="">
+            <img src="https://floridatravel.blog/wp-content/uploads/2018/08/tampa-riverwalk-1-300x200.jpg" alt="">
+            <img src="https://floridatravel.blog/wp-content/uploads/2020/12/Naples-Pier-Sunset-300x226.jpg" alt="">
+            <ol>
+                <li >Key West</li>
+                <li>South Beach Miami</li>
+                <li>Destin</li>
+                <li>Tampa</li>            
+                <li>Naples and The Everglades</li>
     
-
-
+            </ol>
+        </div>
+        <!-- things to do as list -->
+        <div class="li2">
+            <ul><li>watersports like snorkeling, diving, fishing, sailing, kayaking, paddle boarding, and dozens more water-related activities</li>
+                <li>Boat Ride,Parasailing Boat Tour,Jet ski,</li>
+                <li>Dolphin Watch Cruise,Water Activity</li>
+                <li>Florida Aquarium,Busch Gardens TampaBay,Adventure Island,Zoo,River walk</li>                
+                <li>Alligator Show,Dolphin, Birding, and Shelling Tour,Jet ski,Shelling Tour by Boat</li>
+            </ul>
+        </div>
+        <!-- Itinerary as table -->
+        <div class="li3">
+            <label >Flight #: 123456789</label>
+            <label >Hotel Address : </label><br>
+            <label >Arrival :</label>
+            <label >Depature :</label>
+            <table>
+                <tr>
+                    <th>Day1 </th>
+                    <td>Going to Key West,Florida</td>
+                    <td>Doing Water Activity</td>
+                </tr>
+                <tr>
+                    <th>Day2 </th>
+                    <td>Going to South Beach Miami</td>
+                    <td>Enjoying in Beach</td>
+                    <td>Jet ski</td>
+                </tr>
+                <tr>
+                    <th>Day3 </th>
+                    <td>Going to Destin</td>
+                    <td>Dolphin Watch Cruise</td>
+                </tr>
+                <tr>
+                    <th>Day4 </th>
+                    <td>Going to Tampa</td>
+                    <td>Zoo and Aquarium</td>
+                </tr>
+                <tr>
+                    <th>Day5 </th>
+                    <td>Going to Naples and The Everglades</td>
+                    <td>Alligator Show</td>
+                    <td>Dolphin, Birding, and Shelling Tour</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
 </body>
 </html>
