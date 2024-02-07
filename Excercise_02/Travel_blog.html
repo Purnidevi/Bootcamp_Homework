@@ -6,28 +6,43 @@
     <title>A Travel Blog</title>
     <style>
         * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        }
-        body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        font-family:'roboto', sans-serif;
-        padding: 10px;
+        margin: 0; 
+        background-color: rgb(221, 222, 201); 
+        
         }
         .container {
-       margin: 10%;
-       max-width: 80%;
-       padding: 3px;
+            margin: 8%;           
+            max-width: 80%;
+            padding: 3px;
        }
        h1{
-        text-align: center;
-        justify-content: center;
+        
+        text-align: center;       
         background-color: bisque;
+        width: 100%;
+        Height:100%;
+        padding: 10px;
+        border: 3px;
+        border-width: 12px rgb(239, 15, 15);
+       }
+       .box2{
+        
+        padding: 30px;
+        width: 100% ;
+        height: 100%;
+       }
+       .box3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 20px;
+        padding: 3px;       
+
+       }
+       .li{
+        background-color: light pink;
+        width: 100%;
        }
     
     </style>
@@ -52,16 +67,18 @@
             <img src="https://floridatravel.blog/wp-content/uploads/2022/06/destin-Harborwalk-300x274.jpg" alt="">
             <img src="https://floridatravel.blog/wp-content/uploads/2018/08/tampa-riverwalk-1-300x200.jpg" alt="">
             <img src="https://floridatravel.blog/wp-content/uploads/2020/12/Naples-Pier-Sunset-300x226.jpg" alt="">
-            <ol>
+        </div><br><br>
+        <div class="li1">
+            <ol >
                 <li >Key West</li>
                 <li>South Beach Miami</li>
                 <li>Destin</li>
                 <li>Tampa</li>            
                 <li>Naples and The Everglades</li>
-    
             </ol>
-        </div>
-        <!-- things to do as list -->
+        </div><br><br>
+         
+        
         <div class="li2">
             <ul><li>watersports like snorkeling, diving, fishing, sailing, kayaking, paddle boarding, and dozens more water-related activities</li>
                 <li>Boat Ride,Parasailing Boat Tour,Jet ski,</li>
@@ -69,14 +86,14 @@
                 <li>Florida Aquarium,Busch Gardens TampaBay,Adventure Island,Zoo,River walk</li>                
                 <li>Alligator Show,Dolphin, Birding, and Shelling Tour,Jet ski,Shelling Tour by Boat</li>
             </ul>
-        </div>
+        </div><br><br>
         <!-- Itinerary as table -->
         <div class="li3">
             <label >Flight #: 123456789</label>
             <label >Hotel Address : </label><br>
             <label >Arrival :</label>
-            <label >Depature :</label>
-            <table>
+            <label >Depature :</label><br><br>
+            <table class="table1">
                 <tr>
                     <th>Day1 </th>
                     <td>Going to Key West,Florida</td>
