@@ -1,0 +1,84 @@
+h1{
+    color: rgb(5, 5, 5);
+    font-family: fantasy;
+    text-align: center;
+    background-size: cover;    
+    background-image:url('coco.jpeg') ;
+    filter:opacity(.8);
+    border-style:dashed;
+    border-radius: 10px;
+    border-width: 2px ;
+    background-color : rgba(128, 128, 128, 0.479);
+}
+.imagecolor{
+    background-size: cover;    
+    background-image:url('coco.jpeg') ;
+    border-style:dashed;
+    border-radius: 10px;
+    border-width: 2px 
+    
+
+}
+.Intro{
+    background-color: rgba(240, 248, 255, 0.828);
+    color: rgb(0, 0, 0);      
+    font-family:'Times New Roman', Times, serif;
+    display:block;
+    padding: 30px;
+    margin: 0%;
+   
+   
+}
+.img{
+    background-color: rgba(195, 194, 192, 0.704);
+    padding-left: 250px;
+    border-style: solid ridge;
+    border-radius: 50px;
+    border-width: 2px ;
+    border-color: rgb(248, 246, 238);
+    align-items: center;
+    
+  
+}
+.step{
+    background-color: rgb(235, 235, 209);
+    text-wrap : wrap;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: 10px;
+    padding: 40px;
+    border-style: solid ridge;
+    border-radius: 10px;
+    border-width: 0.5px ;
+   
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 230, 188);
+    margin: 10px;
+    padding: 40px;
+    border-style: solid ridge;
+    border-radius: 10px;
+    border-width: 0.5px ;
+}
+.a1{
+    display: block;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    padding: 20px;
+    background-color: bisque;
+    align-items: center;
+
+}
+.a2{
+    color: black;
+    background-color: rgb(241, 239, 236);
+    margin-left:  100px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    padding: 20px;
+
+}
